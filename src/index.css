@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", system-ui, -apple-system, sans-serif;
+  --font-display: "Space Grotesk", system-ui, -apple-system, sans-serif;
+  
+  --color-brand-dark: #0B1F3A;
+  --color-brand-royal: #1E88E5;
+  --color-brand-gold: #D4AF37;
+  --color-brand-gold-hover: #C5A028;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-brand-dark);
+    color: #ffffff;
+    overflow-x: hidden;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Premium Custom Utility Classes */
+.glass-panel {
+  background: rgba(11, 31, 58, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel-hover {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-panel-hover:hover {
+  background: rgba(30, 136, 229, 0.12);
+  border-color: rgba(212, 175, 55, 0.4);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 40px -12px rgba(30, 136, 229, 0.25);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #FFF9E6 0%, #D4AF37 50%, #AA820A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.royal-gradient-text {
+  background: linear-gradient(135deg, #E3F2FD 0%, #1E88E5 50%, #0D47A1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border-glow {
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.05);
+}
+
+.royal-glow {
+  box-shadow: 0 0 30px rgba(30, 136, 229, 0.15);
+}
+
+/* Custom Hide Scrollbar for filters */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Enable super-smooth momentum vertical scrolling on mobile and touch devices */
+html {
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+body {
+  overflow-y: auto;
+  overscroll-behavior-y: none; /* Avoid pull-to-refresh but keep native scroll */
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
