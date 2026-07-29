@@ -120,7 +120,7 @@ export const FAQsView: React.FC = () => {
         </p>
         <div className="flex justify-center pt-2">
           <a
-            href="https://wa.me/923282890374?text=Hi%20Bin%20Usman%20Marketing!%20I%20have%20some%20questions%20regarding%20your%20services."
+            href="https://wa.me/923300286513?text=Hi%20Bin%20Usman%20Marketing!%20I%20have%20some%20questions%20regarding%20your%20services."
             target="_blank"
             rel="noreferrer"
             className="px-5 py-2.5 rounded-full bg-green-500 hover:bg-green-600 text-white font-bold text-xs shadow-lg transition-all flex items-center space-x-1.5 cursor-pointer"

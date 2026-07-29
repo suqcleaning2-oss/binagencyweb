@@ -103,7 +103,7 @@ export const Header: React.FC<HeaderProps> = ({
           <div id="desktop-actions" className="hidden lg:flex items-center space-x-3">
             <a
               id="whatsapp-header-btn"
-              href="https://wa.me/923282890374?text=Hi%20Bin%20Usman%20Marketing!%20I'm%20interested%20in%20your%20services."
+              href="https://wa.me/923300286513?text=Hi%20Bin%20Usman%20Marketing!%20I'm%20interested%20in%20your%20services."
               target="_blank"
               rel="noreferrer noopener"
               className="flex items-center justify-center space-x-2 h-12 px-6 rounded-full bg-[#25D366] hover:bg-[#20ba59] text-white font-bold text-sm transition-all duration-300 shadow-md hover:shadow-green-500/10 cursor-pointer hover:scale-105 active:scale-95"
@@ -117,7 +117,7 @@ export const Header: React.FC<HeaderProps> = ({
           <div className="flex lg:hidden items-center space-x-3">
             <a
               id="whatsapp-mobile-header"
-              href="https://wa.me/923282890374?text=Hi%20Bin%20Usman%20Marketing!"
+              href="https://wa.me/923300286513?text=Hi%20Bin%20Usman%20Marketing!"
               target="_blank"
               rel="noreferrer noopener"
               className="flex items-center justify-center space-x-1.5 h-10 px-4 sm:px-6 rounded-full bg-[#25D366] hover:bg-[#20ba59] text-white font-bold text-xs sm:text-sm transition-all duration-300 shadow-md hover:scale-105 active:scale-95"
@@ -169,7 +169,7 @@ export const Header: React.FC<HeaderProps> = ({
           <div className="space-y-3 px-4">
             <a
               id="whatsapp-mobile-drawer-btn"
-              href="https://wa.me/923282890374?text=Hi%20Bin%20Usman%20Marketing!%20I'm%20interested%20in%20your%20services."
+              href="https://wa.me/923300286513?text=Hi%20Bin%20Usman%20Marketing!%20I'm%20interested%20in%20your%20services."
               target="_blank"
               rel="noreferrer noopener"
               className="w-full flex items-center justify-center space-x-2 py-3 rounded-xl bg-[#25D366] hover:bg-[#20ba59] text-white font-bold text-sm transition-all duration-300 shadow-md hover:scale-105 active:scale-95"

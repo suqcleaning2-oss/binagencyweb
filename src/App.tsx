@@ -19,13 +19,13 @@ export default function App() {
   // Handle preselecting a service from Service card and opening WhatsApp directly
   const handleOpenQuoteWithService = (serviceId: string) => {
     const text = `Hi Bin Usman Marketing Team! I am interested in your service: ${serviceId}.`;
-    const url = `https://wa.me/923282890374?text=${encodeURIComponent(text)}`;
+    const url = `https://wa.me/923300286513?text=${encodeURIComponent(text)}`;
     window.open(url, '_blank', 'noopener,noreferrer');
   };
 
   const handleOpenGeneralQuote = () => {
     const text = `Hi Bin Usman Marketing Team! I want to grow my business.`;
-    const url = `https://wa.me/923282890374?text=${encodeURIComponent(text)}`;
+    const url = `https://wa.me/923300286513?text=${encodeURIComponent(text)}`;
     window.open(url, '_blank', 'noopener,noreferrer');
   };
 

@@ -21,7 +21,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
   const [stats, setStats] = useState({ projects: 0, clients: 0, experts: 0, support: '' });
 
   const getWhatsAppLink = (serviceId: string) => {
-    const baseUrl = "https://wa.me/923282890374?text=";
+    const baseUrl = "https://wa.me/923300286513?text=";
     let message = "";
     switch (serviceId) {
       case 'social-media':

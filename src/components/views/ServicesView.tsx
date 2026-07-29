@@ -18,7 +18,7 @@ export const ServicesView: React.FC<ServicesViewProps> = ({
   const [searchQuery, setSearchQuery] = useState('');
 
   const getWhatsAppLink = (serviceId: string) => {
-    const baseUrl = "https://wa.me/923282890374?text=";
+    const baseUrl = "https://wa.me/923300286513?text=";
     let message = "";
     switch (serviceId) {
       case 'social-media':

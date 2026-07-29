@@ -32,7 +32,7 @@ export const PolicyViews: React.FC<PolicyViewsProps> = ({ type }) => {
     const text = type === 'terms' 
       ? "Hi Bin Usman Marketing Team! I have a question regarding your Terms & Conditions."
       : "Hi Bin Usman Marketing Team! I have a question regarding your Privacy Policy.";
-    const url = `https://wa.me/923282890374?text=${encodeURIComponent(text)}`;
+    const url = `https://wa.me/923300286513?text=${encodeURIComponent(text)}`;
     window.open(url, '_blank', 'noopener,noreferrer');
   };
 
@@ -264,7 +264,7 @@ export const PolicyViews: React.FC<PolicyViewsProps> = ({ type }) => {
                 </div>
                 <div>
                   <span className="text-[10px] text-green-400 font-bold uppercase block leading-none">WhatsApp</span>
-                  <span className="text-white text-xs font-semibold mt-1 block">+92 328 2890374</span>
+                  <span className="text-white text-xs font-semibold mt-1 block">+92 330 0286513</span>
                 </div>
               </button>
 
@@ -495,7 +495,7 @@ export const PolicyViews: React.FC<PolicyViewsProps> = ({ type }) => {
                 </div>
                 <div>
                   <span className="text-[10px] text-green-400 font-bold uppercase block leading-none">WhatsApp</span>
-                  <span className="text-white text-xs font-semibold mt-1 block">+92 328 2890374</span>
+                  <span className="text-white text-xs font-semibold mt-1 block">+92 330 0286513</span>
                 </div>
               </button>
 

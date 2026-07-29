@@ -56,7 +56,7 @@ export const AboutView: React.FC = () => {
   // WhatsApp Contact Trigger helper
   const handleWhatsAppClick = () => {
     const text = "Hi Bin Usman Marketing Team! I visited your About Us page and want to scale my business.";
-    const url = `https://wa.me/923282890374?text=${encodeURIComponent(text)}`;
+    const url = `https://wa.me/923300286513?text=${encodeURIComponent(text)}`;
     window.open(url, '_blank', 'noopener,noreferrer');
   };
 
@@ -307,7 +307,7 @@ export const AboutView: React.FC = () => {
                 </div>
                 <div>
                   <span className="text-[10px] text-green-400 uppercase tracking-widest font-bold">WhatsApp Us</span>
-                  <p className="text-white text-xs font-semibold mt-0.5">+92 328 2890374</p>
+                  <p className="text-white text-xs font-semibold mt-0.5">+92 330 0286513</p>
                 </div>
               </div>
             </button>

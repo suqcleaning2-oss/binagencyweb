@@ -40,7 +40,7 @@ export const FloatingActions: React.FC = () => {
         {/* WhatsApp Float Chat Bubble */}
         <a
           id="whatsapp-float"
-          href="https://wa.me/923282890374?text=Hi%20Bin%20Usman%20Marketing!%20I'm%20looking%20to%20grow%20my%20business."
+          href="https://wa.me/923300286513?text=Hi%20Bin%20Usman%20Marketing!%20I'm%20looking%20to%20grow%20my%20business."
           target="_blank"
           rel="noreferrer noopener"
           className="w-14 h-14 rounded-full bg-green-500 hover:bg-green-600 text-white flex items-center justify-center shadow-2xl relative group transition-all duration-300 transform hover:scale-110"
@@ -69,7 +69,7 @@ export const FloatingActions: React.FC = () => {
         </div>
         
         <a
-          href="https://wa.me/923282890374?text=Hi%20Bin%20Usman%20Marketing!%20I%20would%20like%20a%20free%20quote%20for%20my%20business."
+          href="https://wa.me/923300286513?text=Hi%20Bin%20Usman%20Marketing!%20I%20would%20like%20a%20free%20quote%20for%20my%20business."
           target="_blank"
           rel="noreferrer noopener"
           className="flex items-center space-x-1.5 px-4 py-2.5 rounded-full bg-[#25D366] hover:bg-[#20ba59] text-white font-extrabold text-xs shadow-md transition-all cursor-pointer hover:scale-105"
