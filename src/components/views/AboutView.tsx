@@ -23,7 +23,9 @@ import {
   Cpu, 
   Zap, 
   DollarSign, 
-  UserCheck
+  UserCheck,
+  User,
+  MapPin
 } from 'lucide-react';
 
 export const AboutView: React.FC = () => {
@@ -291,22 +293,36 @@ export const AboutView: React.FC = () => {
               Contact Information
             </h2>
             <p className="text-gray-400 text-xs sm:text-sm max-w-lg mx-auto font-light">
-              Get in touch with Bin Usman Marketing Agency directly. Connect with us on WhatsApp or shoot us an email for inquiries.
+              Get in touch with Bin Usman Marketing Agency directly. Connect with us on WhatsApp, shoot us an email, or visit our office.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-xl mx-auto">
+          {/* Contact Cards Grid: Owner, WhatsApp, Email */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
+            {/* Owner Section */}
+            <div className="flex items-center p-4 rounded-2xl bg-[#1E88E5]/10 border border-[#1E88E5]/20 text-left">
+              <div className="flex items-center space-x-3.5">
+                <div className="w-10 h-10 rounded-xl bg-[#1E88E5] flex items-center justify-center text-white shrink-0">
+                  <User size={20} />
+                </div>
+                <div>
+                  <span className="text-[10px] text-[#1E88E5] uppercase tracking-widest font-bold block">Owner</span>
+                  <p className="text-white text-xs font-bold mt-0.5 tracking-wide">SAHAR USMAN QURESHI</p>
+                </div>
+              </div>
+            </div>
+
             {/* WhatsApp Contact */}
             <button
               onClick={handleWhatsAppClick}
               className="flex items-center justify-between p-4 rounded-2xl bg-[#25D366]/10 border border-[#25D366]/20 hover:bg-[#25D366]/20 hover:scale-[1.02] transition-all duration-300 cursor-pointer text-left"
             >
               <div className="flex items-center space-x-3.5">
-                <div className="w-10 h-10 rounded-xl bg-[#25D366] flex items-center justify-center text-white">
+                <div className="w-10 h-10 rounded-xl bg-[#25D366] flex items-center justify-center text-white shrink-0">
                   <MessageCircle size={20} />
                 </div>
                 <div>
-                  <span className="text-[10px] text-green-400 uppercase tracking-widest font-bold">WhatsApp Us</span>
+                  <span className="text-[10px] text-green-400 uppercase tracking-widest font-bold block">WhatsApp Us</span>
                   <p className="text-white text-xs font-semibold mt-0.5">+92 330 0286513</p>
                 </div>
               </div>
@@ -318,13 +334,43 @@ export const AboutView: React.FC = () => {
               className="flex items-center justify-between p-4 rounded-2xl bg-[#D4AF37]/10 border border-[#D4AF37]/20 hover:bg-[#D4AF37]/20 hover:scale-[1.02] transition-all duration-300 cursor-pointer text-left"
             >
               <div className="flex items-center space-x-3.5">
-                <div className="w-10 h-10 rounded-xl bg-[#D4AF37] flex items-center justify-center text-[#0B1F3A]">
+                <div className="w-10 h-10 rounded-xl bg-[#D4AF37] flex items-center justify-center text-[#0B1F3A] shrink-0">
                   <Mail size={20} />
                 </div>
                 <div>
-                  <span className="text-[10px] text-[#D4AF37] uppercase tracking-widest font-bold">Email Directly</span>
+                  <span className="text-[10px] text-[#D4AF37] uppercase tracking-widest font-bold block">Email Directly</span>
                   <p className="text-white text-xs font-semibold mt-0.5">binusmangrp@gmail.com</p>
                 </div>
+              </div>
+            </a>
+          </div>
+
+          {/* Office Address Section - Below Email and WhatsApp */}
+          <div className="max-w-2xl mx-auto pt-2">
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=Zone+56+Street+329+Building+3-N+Khalid+Doha+Qatar"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="group flex flex-col sm:flex-row items-start sm:items-center justify-between p-5 rounded-2xl bg-sky-500/10 border border-sky-500/20 hover:bg-sky-500/20 hover:border-sky-500/40 hover:scale-[1.01] transition-all duration-300 text-left cursor-pointer space-y-3 sm:space-y-0"
+            >
+              <div className="flex items-start space-x-4">
+                <div className="w-11 h-11 rounded-xl bg-sky-500 flex items-center justify-center text-white shrink-0 mt-0.5 shadow-lg shadow-sky-500/20">
+                  <MapPin size={22} />
+                </div>
+                <div className="space-y-1">
+                  <div className="flex items-center space-x-2">
+                    <span className="text-xs text-sky-400 uppercase tracking-widest font-bold">Office Address</span>
+                    <span className="text-[10px] bg-sky-500/20 text-sky-300 px-2.5 py-0.5 rounded-full font-mono">Open in Google Maps 📍</span>
+                  </div>
+                  <p className="text-white text-sm font-semibold leading-relaxed">
+                    Zone 56, Street 329, Building 3-N,<br className="hidden sm:inline" />
+                    {" "}Khalid, Doha, Qatar
+                  </p>
+                </div>
+              </div>
+              <div className="inline-flex items-center space-x-1.5 text-xs text-sky-400 font-semibold group-hover:translate-x-1 transition-transform self-end sm:self-center bg-sky-500/10 px-3 py-1.5 rounded-xl border border-sky-500/20">
+                <span>Navigate</span>
+                <span>→</span>
               </div>
             </a>
           </div>
