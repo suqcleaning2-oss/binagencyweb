@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Page } from '../types';
 import { Menu, X, MessageCircle, ArrowRight } from 'lucide-react';
-import binUsmanLogo from '../assets/images/bin_usman_logo_1784066891858.jpg';
+import binUsmanLogo from '../assets/images/bin_usman_logo_1784066891858.webp';
 
 interface HeaderProps {
   currentPage: Page;
@@ -18,14 +18,17 @@ export const Header: React.FC<HeaderProps> = ({
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
+    let ticking = false;
     const handleScroll = () => {
-      if (window.scrollY > 20) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          setScrolled(window.scrollY > 20);
+          ticking = false;
+        });
+        ticking = true;
       }
     };
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
@@ -65,6 +68,10 @@ export const Header: React.FC<HeaderProps> = ({
             <img
               src={binUsmanLogo}
               alt="Bin Usman Logo"
+              width={48}
+              height={48}
+              loading="eager"
+              decoding="async"
               referrerPolicy="no-referrer"
               className="h-[44px] w-[44px] sm:h-[48px] sm:w-[48px] object-contain rounded-full shadow-md shadow-black/30 border border-white/10"
             />

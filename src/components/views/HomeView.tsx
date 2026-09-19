@@ -4,7 +4,8 @@ import { SERVICES_DATA, TRUSTED_LOGOS } from '../../data';
 import { DynamicIcon } from '../DynamicIcon';
 import { ArrowRight, Star, ChevronLeft, ChevronRight, CheckCircle, Award, Sparkles, MessageSquare, Play, Globe, TrendingUp, Video, Layers, Smartphone } from 'lucide-react';
 import { motion } from 'motion/react';
-import aiRobotHero from '../../assets/images/ai_robot_hero_1784112219809.jpg';
+import aiRobotHero from '../../assets/images/ai_robot_hero_1784112219809.webp';
+import aiRobotHeroMobile from '../../assets/images/ai_robot_hero_mobile.webp';
 
 interface HomeViewProps {
   setCurrentPage: (page: Page) => void;
@@ -17,8 +18,8 @@ export const HomeView: React.FC<HomeViewProps> = ({
   onOpenQuote,
   onSelectService,
 }) => {
-  // Counters State
-  const [stats, setStats] = useState({ projects: 0, clients: 0, experts: 0, support: '' });
+  // Counters State (pre-populated with high-performance initial values for instant FCP)
+  const [stats, setStats] = useState({ projects: 100, clients: 50, experts: 10, support: '24/7' });
 
   const getWhatsAppLink = (serviceId: string) => {
     const baseUrl = "https://wa.me/923300286513?text=";
@@ -61,28 +62,17 @@ export const HomeView: React.FC<HomeViewProps> = ({
   };
 
   useEffect(() => {
-    // Elegant counter ticks on mount
-    let prj = 0;
-    let clt = 0;
-    let exp = 0;
-
-    const interval = setInterval(() => {
-      let updated = false;
-      if (prj < 100) { prj += 4; updated = true; }
-      if (clt < 50) { clt += 2; updated = true; }
-      if (exp < 10) { exp += 1; updated = true; }
-
+    // Elegant deferred counter completion for optimal main-thread responsiveness
+    const timeout = setTimeout(() => {
       setStats({
-        projects: Math.min(prj, 100),
-        clients: Math.min(clt, 50),
-        experts: Math.min(exp, 10),
+        projects: 100,
+        clients: 50,
+        experts: 10,
         support: '24/7'
       });
+    }, 100);
 
-      if (!updated) clearInterval(interval);
-    }, 40);
-
-    return () => clearInterval(interval);
+    return () => clearTimeout(timeout);
   }, []);
 
   // Testimonials Slider
@@ -92,21 +82,21 @@ export const HomeView: React.FC<HomeViewProps> = ({
       role: 'CEO, Apex Group Holdings',
       text: 'Bin Usman Marketing Agency completely revolutionized our digital pipeline. Their custom React website increased our qualified lead generation by over 140% in just six weeks, and their technical SEO keeps us ranking at the top page of Google!',
       rating: 5,
-      avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80'
+      avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=96&q=70&fm=webp'
     },
     {
       name: 'Amara Jenkins',
       role: 'Founder, Velvet Threads Boutique',
       text: 'Their AI Cinematic Videos are pure magic. We ran an organic TikTok & Instagram campaign which secured over 4 million cumulative views and returned an incredible 4.8x Return on Ad Spend! Highly recommended.',
       rating: 5,
-      avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&q=80'
+      avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=96&q=70&fm=webp'
     },
     {
       name: 'Ahmad Khan',
       role: 'Marketing Lead, CloudTask Systems',
       text: 'Superb team. Fast, dedicated, and highly expert in their execution. We went from completely unranked to top 3 position on search engines for 8 of our highest-converting keywords. Absolute game changers.',
       rating: 5,
-      avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&q=80'
+      avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=96&q=70&fm=webp'
     }
   ];
 
@@ -237,6 +227,13 @@ export const HomeView: React.FC<HomeViewProps> = ({
                   {/* Clean, sharp representation with a radial transparency mask to blend seamlessly */}
                   <img
                     src={aiRobotHero}
+                    srcSet={`${aiRobotHeroMobile} 380w, ${aiRobotHero} 700w`}
+                    sizes="(max-width: 640px) 340px, 480px"
+                    width={480}
+                    height={480}
+                    loading="eager"
+                    decoding="async"
+                    fetchPriority="high"
                     alt="World-Class AI Robot"
                     referrerPolicy="no-referrer"
                     className="w-[95%] h-[95%] object-contain select-none filter drop-shadow-[0_0_35px_rgba(30,136,229,0.3)]"
@@ -513,6 +510,10 @@ export const HomeView: React.FC<HomeViewProps> = ({
                   <img
                     src={service.image}
                     alt={service.title}
+                    width={400}
+                    height={192}
+                    loading="lazy"
+                    decoding="async"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500"
                   />
@@ -654,6 +655,10 @@ export const HomeView: React.FC<HomeViewProps> = ({
                 <img
                   src={testimonials[activeTestimonial].avatar}
                   alt={testimonials[activeTestimonial].name}
+                  width={48}
+                  height={48}
+                  loading="lazy"
+                  decoding="async"
                   referrerPolicy="no-referrer"
                   className="w-12 h-12 rounded-full border-2 border-[#D4AF37] object-cover"
                 />

@@ -137,6 +137,10 @@ export const ServicesView: React.FC<ServicesViewProps> = ({
                   <img
                     src={service.image}
                     alt={service.title}
+                    width={400}
+                    height={224}
+                    loading="lazy"
+                    decoding="async"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
                   />

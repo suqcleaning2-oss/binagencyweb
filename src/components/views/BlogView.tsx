@@ -83,6 +83,10 @@ export const BlogView: React.FC = () => {
                   <img
                     src={post.image}
                     alt={post.title}
+                    width={400}
+                    height={192}
+                    loading="lazy"
+                    decoding="async"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
                   />
@@ -184,6 +188,10 @@ export const BlogView: React.FC = () => {
                 <img
                   src={selectedPost.image}
                   alt={selectedPost.title}
+                  width={600}
+                  height={256}
+                  loading="lazy"
+                  decoding="async"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"
                 />

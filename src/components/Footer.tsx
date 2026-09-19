@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Page } from '../types';
 import { DynamicIcon } from './DynamicIcon';
 import { Mail, Send, CheckCircle2 } from 'lucide-react';
-import binUsmanLogo from '../assets/images/bin_usman_logo_1784066891858.jpg';
+import binUsmanLogo from '../assets/images/bin_usman_logo_1784066891858.webp';
 
 interface FooterProps {
   setCurrentPage: (page: Page) => void;
@@ -48,6 +48,10 @@ export const Footer: React.FC<FooterProps> = ({ setCurrentPage }) => {
               <img
                 src={binUsmanLogo}
                 alt="Bin Usman Logo"
+                width={48}
+                height={48}
+                loading="lazy"
+                decoding="async"
                 referrerPolicy="no-referrer"
                 className="h-[44px] w-[44px] sm:h-[48px] sm:w-[48px] object-contain rounded-full shadow-md shadow-black/30 border border-white/10"
               />

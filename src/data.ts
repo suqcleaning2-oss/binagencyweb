@@ -1,15 +1,15 @@
 import { Service, PortfolioItem, PricingPlan, FAQItem, BlogPost, JobOpening } from './types';
 
-import socMediaDash from './assets/images/soc_media_dash_1784041039719.jpg';
-import seoRankings from './assets/images/seo_rankings_1784041060270.jpg';
-import webDevDevices from './assets/images/web_dev_devices_1784041077510.jpg';
-import appDevMobile from './assets/images/app_dev_mobile_1784041093691.jpg';
-import aiVideoEditing from './assets/images/ai_video_editing_1784041111038.jpg';
-import graphicDesignWorkspace from './assets/images/graphic_design_workspace_1784041133441.jpg';
-import youtubeMonetization from './assets/images/youtube_monetization_1784041149874.jpg';
-import instagramGrowth from './assets/images/instagram_growth_1784041168749.jpg';
-import facebookGrowth from './assets/images/facebook_growth_1784041185264.jpg';
-import tiktokGrowth from './assets/images/tiktok_growth_1784041202755.jpg';
+import socMediaDash from './assets/images/soc_media_dash_1784041039719.webp';
+import seoRankings from './assets/images/seo_rankings_1784041060270.webp';
+import webDevDevices from './assets/images/web_dev_devices_1784041077510.webp';
+import appDevMobile from './assets/images/app_dev_mobile_1784041093691.webp';
+import aiVideoEditing from './assets/images/ai_video_editing_1784041111038.webp';
+import graphicDesignWorkspace from './assets/images/graphic_design_workspace_1784041133441.webp';
+import youtubeMonetization from './assets/images/youtube_monetization_1784041149874.webp';
+import instagramGrowth from './assets/images/instagram_growth_1784041168749.webp';
+import facebookGrowth from './assets/images/facebook_growth_1784041185264.webp';
+import tiktokGrowth from './assets/images/tiktok_growth_1784041202755.webp';
 
 export const SERVICES_DATA: Service[] = [
   {
@@ -159,7 +159,7 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
     id: 'p1',
     title: 'E-Commerce Scaling Empire',
     category: 'Social Media Marketing',
-    image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=600&q=70&fm=webp',
     client: 'Velvet Threads Boutique',
     result: '4.8x ROAS with $120k in Monthly Revenue',
     year: '2026'
@@ -168,7 +168,7 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
     id: 'p2',
     title: 'SaaS Platform Rank Acceleration',
     category: 'SEO',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=70&fm=webp',
     client: 'CloudTask Systems',
     result: '+340% Organic Traffic Growth in 90 Days',
     year: '2025'
@@ -177,7 +177,7 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
     id: 'p3',
     title: 'Luxury Real Estate Portal',
     category: 'Websites',
-    image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=600&q=70&fm=webp',
     client: 'Apex Group Holdings',
     result: 'Stunning React Hub generating 50+ Qualified Leads/Week',
     year: '2026'
@@ -186,7 +186,7 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
     id: 'p4',
     title: 'Hyper-Realistic AI Campaign',
     category: 'AI Videos',
-    image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=70&fm=webp',
     client: 'Chronos Watches',
     result: '12 Million Cumulative Views across TikTok & Instagram',
     year: '2026'
@@ -195,7 +195,7 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
     id: 'p5',
     title: 'Fintech Mobile App UI/UX',
     category: 'Mobile Apps',
-    image: 'https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=600&q=70&fm=webp',
     client: 'PayPulse Digital',
     result: 'Perfect 4.9 App Store Rating & 100k+ Downloads',
     year: '2025'
@@ -204,7 +204,7 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
     id: 'p6',
     title: 'Complete Corporate Identity Rebrand',
     category: 'Graphic Design',
-    image: 'https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=600&q=70&fm=webp',
     client: 'Synthetix AI Solutions',
     result: 'Aesthetic luxury branding guide adopted across 14 countries',
     year: '2026'
@@ -213,7 +213,7 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
     id: 'p7',
     title: 'Dental Clinic Local Search Domination',
     category: 'SEO',
-    image: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=600&q=70&fm=webp',
     client: 'Aesthetic Dental Care',
     result: 'Top 3 Map Pack placement for 12 local keywords',
     year: '2025'
@@ -222,7 +222,7 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
     id: 'p8',
     title: 'Fitness Startup Social Growth Blueprint',
     category: 'Social Media Marketing',
-    image: 'https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=600&q=70&fm=webp',
     client: 'CoreFit Online Labs',
     result: 'From 0 to 80,000 Organic Instagram Followers in 6 Months',
     year: '2026'
@@ -316,7 +316,7 @@ export const BLOG_POSTS: BlogPost[] = [
     id: 'b1',
     title: 'The AI Revolution in Digital Content: How to Rank in 2026',
     category: 'AI',
-    image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=70&fm=webp',
     date: 'July 12, 2026',
     author: 'Usman Bin Tariq',
     readTime: '6 min read',
@@ -327,7 +327,7 @@ export const BLOG_POSTS: BlogPost[] = [
     id: 'b2',
     title: '5 Crucial Rules for Viral Instagram Reels and TikTok Growth',
     category: 'Marketing',
-    image: 'https://images.unsplash.com/photo-1611224885990-ab7363d1f2a9?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1611224885990-ab7363d1f2a9?auto=format&fit=crop&w=600&q=70&fm=webp',
     date: 'June 28, 2026',
     author: 'Sarah Jenkins',
     readTime: '5 min read',
@@ -338,7 +338,7 @@ export const BLOG_POSTS: BlogPost[] = [
     id: 'b3',
     title: 'Why React and Tailwind CSS are Essential for High-Conversion Sites',
     category: 'Web Development',
-    image: 'https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&w=600&q=70&fm=webp',
     date: 'May 14, 2026',
     author: 'Ahmad Khan',
     readTime: '8 min read',

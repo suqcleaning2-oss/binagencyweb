@@ -5,14 +5,17 @@ export const FloatingActions: React.FC = () => {
   const [showScroll, setShowScroll] = useState(false);
 
   useEffect(() => {
+    let ticking = false;
     const checkScroll = () => {
-      if (window.scrollY > 300) {
-        setShowScroll(true);
-      } else {
-        setShowScroll(false);
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          setShowScroll(window.scrollY > 300);
+          ticking = false;
+        });
+        ticking = true;
       }
     };
-    window.addEventListener('scroll', checkScroll);
+    window.addEventListener('scroll', checkScroll, { passive: true });
     return () => window.removeEventListener('scroll', checkScroll);
   }, []);
 

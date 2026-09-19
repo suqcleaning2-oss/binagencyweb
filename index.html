@@ -40,10 +40,50 @@
     <meta property="twitter:description" content="Elevate your brand with data-driven SEO, custom web & app development, futuristic AI cinematic videos, and complete organic social growth." />
     <meta property="twitter:image" content="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80" />
 
-    <!-- Google Fonts: Poppins & Space Grotesk -->
+    <!-- LCP Image Preload for Instant Discovery -->
+    <link rel="preload" as="image" href="/src/assets/images/ai_robot_hero_1784112219809.webp" type="image/webp" fetchpriority="high" />
+
+    <!-- Google Fonts Optimization: Asynchronous Non-Blocking Load with Fallback -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap">
+    </noscript>
+
+    <!-- Critical Inlined CSS for Instant First Contentful Paint & Zero Layout Shift -->
+    <style>
+      :root {
+        --brand-dark: #0B1F3A;
+        --brand-royal: #1E88E5;
+        --brand-gold: #D4AF37;
+      }
+      html {
+        background-color: #0B1F3A;
+        color: #FFFFFF;
+        font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        scroll-behavior: smooth;
+        -webkit-text-size-adjust: 100%;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #0B1F3A;
+        color: #FFFFFF;
+        overflow-x: hidden;
+        min-height: 100vh;
+      }
+      #root {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: #0B1F3A;
+      }
+      img {
+        content-visibility: auto;
+      }
+    </style>
 
     <!-- Schema.org JSON-LD Structured Data -->
     <script type="application/ld+json">
