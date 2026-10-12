@@ -21,14 +21,17 @@ export const ServicesView: React.FC<ServicesViewProps> = ({
     const baseUrl = "https://wa.me/923300286513?text=";
     let message = "";
     switch (serviceId) {
-      case 'social-media':
-        message = "Hi Bin Usman Marketing Agency, I need Social Media Marketing services.";
+      case 'web-dev':
+        message = "Hi Bin Usman Marketing Agency, I need a high-performance custom website.";
+        break;
+      case 'ugc-ads':
+        message = "Hi Bin Usman Marketing Agency, I need high-converting UGC Video Ads for TikTok & Meta.";
         break;
       case 'seo':
         message = "Hi Bin Usman Marketing Agency, I need SEO services.";
         break;
-      case 'web-dev':
-        message = "Hi Bin Usman Marketing Agency, I need a professional website.";
+      case 'social-media':
+        message = "Hi Bin Usman Marketing Agency, I need Social Media Marketing services.";
         break;
       case 'app-dev':
         message = "Hi Bin Usman Marketing Agency, I need a mobile application.";

@@ -3,7 +3,7 @@ import { FAQS_DATA } from '../../data';
 import { HelpCircle, ChevronDown, ChevronUp, ShieldCheck } from 'lucide-react';
 
 export const FAQsView: React.FC = () => {
-  const categories = ['All', 'SEO', 'Web & App', 'AI & Design', 'Marketing & Growth'];
+  const categories = ['All', 'Web & App', 'UGC & Video', 'SEO', 'AI & Design', 'Marketing & Growth', 'Agency & Location'];
   const [activeCategory, setActiveCategory] = useState('All');
   const [expandedIndex, setExpandedIndex] = useState<number | null>(0); // First item expanded by default
 

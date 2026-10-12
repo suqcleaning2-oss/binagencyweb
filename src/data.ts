@@ -13,18 +13,32 @@ import tiktokGrowth from './assets/images/tiktok_growth_1784041202755.webp';
 
 export const SERVICES_DATA: Service[] = [
   {
-    id: 'social-media',
-    title: 'Social Media Marketing',
-    description: 'Complete high-performance social media management tailored to accelerate business engagement, lead generation, and ultimate growth.',
-    image: socMediaDash,
-    iconName: 'Share2',
+    id: 'web-dev',
+    title: 'Website Development',
+    description: 'Stunning, high-conversion custom websites engineered with React, Next.js, and Tailwind CSS for 95+ Core Web Vitals and top Google rankings.',
+    image: webDevDevices,
+    iconName: 'Globe',
     features: [
-      'Strategic content calendars and premium copywriting',
-      'Targeted paid ad campaigns (Facebook, Instagram, LinkedIn)',
-      'Community engagement and response management',
-      'In-depth monthly analytics and ROI reporting'
+      'Next.js & React custom ultra-fast user interfaces',
+      'Optimized for perfect 95+ to 100/100 Core Web Vitals',
+      'Built-in Schema.org, technical SEO, and conversion optimization',
+      'Interactive custom features, dynamic portals, and responsive layouts'
     ],
-    ctaText: 'Start Scaling Today'
+    ctaText: 'Build Your Website'
+  },
+  {
+    id: 'ugc-ads',
+    title: 'UGC Video Ads & Creator Marketing',
+    description: 'High-converting User Generated Content (UGC) video ads engineered for TikTok, Meta (Instagram Reels / Facebook Ads), and YouTube Shorts with hook-first retention.',
+    image: aiVideoEditing,
+    iconName: 'Sparkles',
+    features: [
+      'Authentic UGC creator sourcing & direct-response scripts',
+      'Scroll-stopping 3-second viral hooks designed for maximum CTR',
+      'Conversion-focused ad angles for TikTok, Instagram Reels & YouTube Shorts',
+      'A/B tested creative hooks yielding up to 4.5x Return on Ad Spend (ROAS)'
+    ],
+    ctaText: 'Get High-ROAS UGC Ads'
   },
   {
     id: 'seo',
@@ -41,18 +55,18 @@ export const SERVICES_DATA: Service[] = [
     ctaText: 'Claim Your Rank'
   },
   {
-    id: 'web-dev',
-    title: 'Website Development',
-    description: 'Stunning, high-conversion custom websites engineered with React, Tailwind, and Node.js for perfect speed and responsiveness.',
-    image: webDevDevices,
-    iconName: 'Globe',
+    id: 'social-media',
+    title: 'Social Media Marketing',
+    description: 'Complete high-performance social media management tailored to accelerate business engagement, lead generation, and ultimate growth.',
+    image: socMediaDash,
+    iconName: 'Share2',
     features: [
-      'Next.js and React premium user interfaces',
-      'Optimized for perfect 100/100 Core Web Vitals',
-      'SEO-friendly semantic structure and layout',
-      'Interactive custom features and dynamic animations'
+      'Strategic content calendars and premium copywriting',
+      'Targeted paid ad campaigns (Facebook, Instagram, LinkedIn)',
+      'Community engagement and response management',
+      'In-depth monthly analytics and ROI reporting'
     ],
-    ctaText: 'Build Your Platform'
+    ctaText: 'Start Scaling Today'
   },
   {
     id: 'app-dev',
@@ -280,14 +294,29 @@ export const PRICING_PLANS: PricingPlan[] = [
 
 export const FAQS_DATA: FAQItem[] = [
   {
+    question: 'What services does Bin Usman Marketing Agency specialize in?',
+    answer: 'Bin Usman Marketing Agency specializes in custom Website Development (React/Next.js), high-converting UGC Video Ads for TikTok & Meta, Search Engine Optimization (SEO/AEO/GEO), AI Cinematic Videos, Cross-Platform Mobile Apps, and Organic Social Media Growth.',
+    category: 'Web & App'
+  },
+  {
+    question: 'Who owns Bin Usman Marketing Agency and where is the official office located?',
+    answer: 'Bin Usman Marketing Agency is owned and led by SAHAR USMAN QURESHI. The agency headquarters is located at Zone 56, Street 329, Building 3-N, Khalid, Doha, Qatar, serving enterprise and e-commerce clients across Qatar, the GCC, Pakistan, the US, and worldwide.',
+    category: 'Agency & Location'
+  },
+  {
+    question: 'What are UGC Video Ads and why are they so effective on TikTok and Meta?',
+    answer: 'UGC (User Generated Content) Ads are creator-led video advertisements filmed natively for TikTok, Instagram Reels, and YouTube Shorts. Unlike polished studio commercials, UGC ads build instant relatable trust with 3-second scroll-stopping hooks and real customer problem-solving demonstrations, generating up to 4.5x higher Return on Ad Spend (ROAS).',
+    category: 'UGC & Video'
+  },
+  {
+    question: 'Why choose Bin Usman Marketing Agency for custom Website Development?',
+    answer: 'We build tailored websites using modern React, Next.js, TypeScript, and Tailwind CSS engineered specifically for sub-second load times and 95+ PageSpeed scores. Every website includes semantic Schema.org structured data, mobile-first UX, and on-page SEO so your business immediately ranks at the top of Google search results.',
+    category: 'Web & App'
+  },
+  {
     question: 'How does your Search Engine Optimization (SEO) strategy work?',
     answer: 'We deploy a 3-part elite SEO approach: Technical audits to fix site speed and Core Web Vitals, Keyword Intent Mapping to write search-dominant content, and manual premium Outreach to secure authority-boosting backlinks. This ensures you climb Google ranks and stay there.',
     category: 'SEO'
-  },
-  {
-    question: 'What technologies do you use for Website and Mobile App Development?',
-    answer: 'We construct bleeding-edge responsive websites using React, Next.js, and Tailwind CSS. For mobile applications, we use React Native and Flutter, ensuring native-level performance, smooth micro-animations, and flawless support on both Android and iOS smartphones.',
-    category: 'Web & App'
   },
   {
     question: 'What are AI Cinematic Videos and how do they benefit my business?',
@@ -306,7 +335,7 @@ export const FAQS_DATA: FAQItem[] = [
   },
   {
     question: 'How does the free quote and consultation process work?',
-    answer: 'Once you submit our secure Quote form or click the WhatsApp trigger, you are paired with an Expert Strategy Lead. We perform a complimentary audit of your existing website, social profiles, and SEO ranks, followed by a personalized 15-minute blueprint presentation.',
+    answer: 'Once you submit our secure Quote form or click the WhatsApp trigger (+92 330 0286513), you are paired with an Expert Strategy Lead. We perform a complimentary audit of your existing website, social profiles, and SEO ranks, followed by a personalized 15-minute blueprint presentation.',
     category: 'Marketing & Growth'
   }
 ];

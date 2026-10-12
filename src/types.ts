@@ -54,7 +54,7 @@ export interface BlogPost {
 export interface FAQItem {
   question: string;
   answer: string;
-  category: 'SEO' | 'Web & App' | 'AI & Design' | 'Marketing & Growth';
+  category: 'SEO' | 'Web & App' | 'UGC & Video' | 'AI & Design' | 'Marketing & Growth' | 'Agency & Location';
 }
 
 export interface JobOpening {

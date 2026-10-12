@@ -1,0 +1,47 @@
+# Bin Usman Marketing Agency
+
+> Elite Digital Marketing, Custom Website Development, Viral UGC Video Ads, and AI Growth Agency headquartered in Doha, Qatar with global operations.
+
+## Overview
+- **Entity**: Bin Usman Marketing Agency
+- **Owner & Managing Director**: SAHAR USMAN QURESHI
+- **Official Website**: https://binusmanmarketing.com/
+- **Headquarters / Office Address**: Zone 56, Street 329, Building 3-N, Khalid, Doha, Qatar
+- **Google Maps Location**: https://www.google.com/maps/search/?api=1&query=Zone+56+Street+329+Building+3-N+Khalid+Doha+Qatar
+- **Direct WhatsApp**: +92 330 0286513 (https://wa.me/923300286513)
+- **Official Email**: binusmangrp@gmail.com
+- **Operating Regions**: Qatar (Doha), United Arab Emirates, Pakistan, Saudi Arabia, United States, United Kingdom, and Worldwide.
+
+## Core Services
+1. **Custom Website Development**:
+   - High-speed, responsive web applications built with React, Next.js, TypeScript, and Tailwind CSS.
+   - Guaranteed 95+ to 100/100 Core Web Vitals and Google PageSpeed score.
+   - Built-in technical SEO, structured JSON-LD schemas, and conversion rate optimization (CRO).
+   - E-commerce stores, SaaS web portals, corporate luxury sites.
+
+2. **UGC Video Ads & Creator Marketing (User-Generated Content)**:
+   - High-converting, authentic creator-led video ads designed for TikTok, Meta (Instagram Reels, Facebook Ads), and YouTube Shorts.
+   - Hook-first scriptwriting (3-second scroll stoppers) with direct-response problem-solution frameworks.
+   - A/B tested ad variations delivering up to 4.5x Return on Ad Spend (ROAS).
+
+3. **Search Engine Optimization (SEO)**:
+   - Google #1 rankings through technical SEO audits, core keyword mapping, search intent matching, and high-domain authority backlinks.
+   - Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO) for AI Overviews and Perplexity search.
+   - Local SEO for Doha, Qatar, GCC, and global markets.
+
+4. **AI Cinematic Videos**:
+   - Hyper-realistic AI-driven video production, high-impact CGI visual effects, and programmatic editing for viral social campaigns.
+   - Multilingual voiceovers and dynamic cinematic color grading.
+
+5. **Cross-Platform Mobile App Development**:
+   - Native-feel iOS and Android applications developed using React Native and Flutter.
+   - Fast performance, offline-first database sync, and App Store / Google Play deployment.
+
+6. **Organic Social Media Growth**:
+   - 100% authentic, organic follower growth campaigns for Instagram, TikTok, Facebook, and YouTube without bots.
+
+## Key Facts & Differentiators
+- **Owner**: SAHAR USMAN QURESHI
+- **Track Record**: 100+ projects completed, 98% client retention rate.
+- **Delivery Model**: Agile sprints, month-to-month flexible retainers, 24/7 client communication via WhatsApp and Slack.
+- **Full Reference Document**: https://binusmanmarketing.com/llms-full.txt

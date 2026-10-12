@@ -1,0 +1,64 @@
+# ==============================================================================
+# Robots.txt for Bin Usman Marketing Agency (https://binusmanmarketing.com)
+# Configured for Search Engines (Google, Bing) and AI Answer Engines (AEO / GEO)
+# ==============================================================================
+
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Googlebot (Search & Image)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+# Bingbot
+User-agent: Bingbot
+Allow: /
+
+# OpenAI / ChatGPT Search (AEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Google Gemini & Google AI Overviews (GEO)
+User-agent: Google-Extended
+Allow: /
+
+# Perplexity AI (AEO)
+User-agent: PerplexityBot
+Allow: /
+
+# Anthropic Claude (AEO)
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Apple Intelligence
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# TikTok / ByteDance Crawlers
+User-agent: Bytespider
+Allow: /
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# Meta / Facebook External Hit
+User-agent: facebookexternalhit
+Allow: /
+
+# Sitemaps and Knowledge Manifests
+Sitemap: https://binusmanmarketing.com/sitemap.xml
+llms-txt: https://binusmanmarketing.com/llms.txt
