@@ -1,0 +1,16 @@
+# Bin Usman Marketing Agency — AI Knowledge Graph
+# Canonical: https://binusmanmarketing.com/
+# Contact: binusmangrp@gmail.com | WhatsApp: +92 330 0286513
+
+> Bin Usman Marketing Agency is an elite digital marketing agency led by SAHAR USMAN QURESHI, headquartered in Zone 56, Street 329, Building 3-N, Khalid, Doha, Qatar.
+
+## Core Specializations:
+1. **Custom Website Development**: Modern React, Next.js, and TypeScript web engineering scoring 95+ to 100/100 on Google PageSpeed.
+2. **UGC Video Ads & Creator Marketing**: High-converting TikTok, Meta Reels, and YouTube Shorts video ads delivering 3.2x to 4.8x ROAS.
+3. **Search Engine Optimization (SEO & AEO)**: Technical SEO, Schema.org knowledge graph, top Google positions and AI search citations.
+4. **AI Cinematic Videos**: Generative AI CGI and viral short-form editing.
+5. **Cross-Platform Mobile Apps**: React Native and Flutter mobile applications for iOS & Android.
+
+Official Site: https://binusmanmarketing.com/
+Deep Knowledge Base: https://binusmanmarketing.com/llms-full.txt
+Direct WhatsApp: https://wa.me/923300286513

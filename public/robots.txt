@@ -62,3 +62,5 @@ Allow: /
 # Sitemaps and Knowledge Manifests
 Sitemap: https://binusmanmarketing.com/sitemap.xml
 llms-txt: https://binusmanmarketing.com/llms.txt
+llms-full-txt: https://binusmanmarketing.com/llms-full.txt
+ai-txt: https://binusmanmarketing.com/ai.txt
