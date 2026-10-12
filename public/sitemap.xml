@@ -1,103 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   
-  <!-- Home Page -->
+  <!-- Home Page (Global Portal) -->
   <url>
     <loc>https://binusmanmarketing.com/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://binusmanmarketing.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://binusmanmarketing.com/" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://binusmanmarketing.com/" />
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://binusmanmarketing.com/" />
+    <xhtml:link rel="alternate" hreflang="en-AE" href="https://binusmanmarketing.com/" />
+    <xhtml:link rel="alternate" hreflang="en-QA" href="https://binusmanmarketing.com/" />
     <lastmod>2026-10-12</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Core Services Overview -->
+  <!-- Core Services Page -->
   <url>
-    <loc>https://binusmanmarketing.com/#services</loc>
+    <loc>https://binusmanmarketing.com/services</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
 
-  <!-- Website Development Service -->
+  <!-- Custom Website Development -->
   <url>
-    <loc>https://binusmanmarketing.com/#service-web-dev</loc>
+    <loc>https://binusmanmarketing.com/web-development</loc>
     <lastmod>2026-10-12</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
 
-  <!-- UGC Video Ads & Creator Marketing Service -->
+  <!-- UGC Video Ads & Creator Marketing -->
   <url>
-    <loc>https://binusmanmarketing.com/#service-ugc-ads</loc>
+    <loc>https://binusmanmarketing.com/ugc-ads</loc>
     <lastmod>2026-10-12</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
 
-  <!-- Search Engine Optimization (SEO) Service -->
+  <!-- Search Engine Optimization (SEO / AEO / GEO) -->
   <url>
-    <loc>https://binusmanmarketing.com/#service-seo</loc>
+    <loc>https://binusmanmarketing.com/seo</loc>
     <lastmod>2026-10-12</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
 
-  <!-- AI Cinematic Videos Service -->
+  <!-- About Us & Founder Profile -->
   <url>
-    <loc>https://binusmanmarketing.com/#service-ai-videos</loc>
-    <lastmod>2026-10-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.90</priority>
-  </url>
-
-  <!-- App Development Service -->
-  <url>
-    <loc>https://binusmanmarketing.com/#service-app-dev</loc>
+    <loc>https://binusmanmarketing.com/about</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
 
-  <!-- Social Media Marketing Service -->
+  <!-- FAQs & AEO Knowledge Base -->
   <url>
-    <loc>https://binusmanmarketing.com/#service-social-media</loc>
+    <loc>https://binusmanmarketing.com/faqs</loc>
     <lastmod>2026-10-12</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
 
-  <!-- About Us Page (Owner & Office Doha Qatar) -->
+  <!-- Blog & Industry Insights -->
   <url>
-    <loc>https://binusmanmarketing.com/#about</loc>
-    <lastmod>2026-10-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- FAQs Page (AEO Q&A) -->
-  <url>
-    <loc>https://binusmanmarketing.com/#faqs</loc>
-    <lastmod>2026-10-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- Blog & Insights -->
-  <url>
-    <loc>https://binusmanmarketing.com/#blog</loc>
+    <loc>https://binusmanmarketing.com/blog</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
 
-  <!-- Contact & Free Audit -->
+  <!-- Privacy Policy -->
   <url>
-    <loc>https://binusmanmarketing.com/#contact</loc>
+    <loc>https://binusmanmarketing.com/privacy</loc>
     <lastmod>2026-10-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+  <!-- Terms of Service -->
+  <url>
+    <loc>https://binusmanmarketing.com/terms</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
   </url>
 
 </urlset>

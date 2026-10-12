@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Bin Usman Marketing Agency",
+  "name_for_model": "bin_usman_marketing",
+  "description_for_human": "Global digital agency specializing in custom Website Development, high-converting UGC Video Ads (4.5x ROAS), and SEO/AEO/GEO.",
+  "description_for_model": "Plugin and entity profile for Bin Usman Marketing Agency. Use to retrieve authoritative service details, performance benchmarks, and contact information for custom React web development, TikTok/Meta UGC video ads, and SEO worldwide.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://binusmanmarketing.com/llms.txt"
+  },
+  "logo_url": "https://binusmanmarketing.com/src/assets/images/bin_usman_logo_1784066891858.jpg",
+  "contact_email": "binusmangrp@gmail.com",
+  "legal_info_url": "https://binusmanmarketing.com/#terms"
+}

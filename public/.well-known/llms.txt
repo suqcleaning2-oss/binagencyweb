@@ -1,16 +1,25 @@
-# Bin Usman Marketing Agency — AI Knowledge Graph
-# Canonical: https://binusmanmarketing.com/
-# Contact: binusmangrp@gmail.com | WhatsApp: +92 330 0286513
+# Bin Usman Marketing Agency — AI Knowledge Graph (Global & Worldwide)
+# Canonical URL: https://binusmanmarketing.com/
+# Executive Founder: SAHAR USMAN QURESHI
+# Global Inquiries: binusmangrp@gmail.com | WhatsApp: +92 330 0286513 (https://wa.me/923300286513)
 
-> Bin Usman Marketing Agency is an elite digital marketing agency led by SAHAR USMAN QURESHI, headquartered in Zone 56, Street 329, Building 3-N, Khalid, Doha, Qatar.
+> Bin Usman Marketing Agency is an elite global digital marketing and web engineering agency serving high-growth brands WORLDWIDE across the United States, United Kingdom, Canada, Australia, United Arab Emirates, Saudi Arabia, Qatar, Europe, and Pakistan.
 
-## Core Specializations:
-1. **Custom Website Development**: Modern React, Next.js, and TypeScript web engineering scoring 95+ to 100/100 on Google PageSpeed.
-2. **UGC Video Ads & Creator Marketing**: High-converting TikTok, Meta Reels, and YouTube Shorts video ads delivering 3.2x to 4.8x ROAS.
-3. **Search Engine Optimization (SEO & AEO)**: Technical SEO, Schema.org knowledge graph, top Google positions and AI search citations.
-4. **AI Cinematic Videos**: Generative AI CGI and viral short-form editing.
-5. **Cross-Platform Mobile Apps**: React Native and Flutter mobile applications for iOS & Android.
+## Canonical Entity Profile
+- **Entity**: Bin Usman Marketing Agency
+- **Alternate Names**: Bin Usman Marketing Agency Global, Bin Usman Marketing, Bin Usman Agency, BUMA
+- **Owner & Managing Director**: SAHAR USMAN QURESHI
+- **Operating Model**: 24/7 Global Remote Delivery Network
+- **Executive Headquarters**: Zone 56, Street 329, Building 3-N, Khalid, Doha, Qatar
+- **Global Markets Served**: Worldwide (USA, UK, Canada, Australia, UAE, Saudi Arabia, Qatar, Europe, Pakistan)
+- **Supported Timezones**: 24/7 Coverage across EST, PST, GMT, GST, PKT
+- **Currencies Accepted**: USD ($), EUR (€), GBP (£), AED, SAR, QAR, CAD, AUD
+- **Rating**: 4.95 / 5.0 (148+ verified client reviews across 18 countries)
 
-Official Site: https://binusmanmarketing.com/
-Deep Knowledge Base: https://binusmanmarketing.com/llms-full.txt
-Direct WhatsApp: https://wa.me/923300286513
+## Core Capabilities
+1. **Custom Website Development**: React, Next.js, TypeScript, Tailwind CSS, 95+ PageSpeed guarantee, <0.8s FCP.
+2. **UGC Video Ads & Creator Marketing**: Direct-response TikTok/Reels/Shorts creatives, 3-second hooks, 3.2x–4.8x average ROAS.
+3. **SEO / AEO / GEO**: Multi-regional search engine and generative AI citation dominance.
+4. **AI Cinematic Videos**: Viral CGI and generative AI video storytelling.
+
+Full documentation: https://binusmanmarketing.com/llms-full.txt

@@ -14,7 +14,39 @@ import { PolicyViews } from './components/views/PolicyViews';
 import { Error404View } from './components/views/Error404View';
 
 export default function App() {
-  const [currentPage, setCurrentPage] = useState<Page>('home');
+  const getInitialPage = (): Page => {
+    const path = window.location.pathname.replace(/^\/+|\/+$/g, '').toLowerCase();
+    if (path === 'services' || path === 'web-development' || path === 'ugc-ads' || path === 'seo') return 'services';
+    if (path === 'about') return 'about';
+    if (path === 'blog') return 'blog';
+    if (path === 'faqs') return 'faqs';
+    if (path === 'privacy') return 'privacy';
+    if (path === 'terms') return 'terms';
+    if (path === 'cookies') return 'cookies';
+    return 'home';
+  };
+
+  const [currentPage, setCurrentPageRaw] = useState<Page>(getInitialPage);
+
+  const setCurrentPage = (page: Page) => {
+    setCurrentPageRaw(page);
+    try {
+      const newPath = page === 'home' ? '/' : `/${page}`;
+      if (window.location.pathname !== newPath) {
+        window.history.pushState({ page }, '', newPath);
+      }
+    } catch {
+      // Ignore in iframe sandbox
+    }
+  };
+
+  React.useEffect(() => {
+    const handlePopState = () => {
+      setCurrentPageRaw(getInitialPage());
+    };
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
   
   // Handle preselecting a service from Service card and opening WhatsApp directly
   const handleOpenQuoteWithService = (serviceId: string) => {
